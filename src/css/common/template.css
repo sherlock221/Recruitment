@@ -1,0 +1,149 @@
+/**
+ * @description 公共部分的CSS
+ * @author   sherlock
+ * @time     1：20
+ */
+
+*  { -webkit-user-select:none; -webkit-tap-highlight-color:rgba(255, 255, 255, 0); }
+input, textarea  { -webkit-user-select:text; }
+
+
+html, body {
+    width: 100%;
+
+    /** 字体类型 **/
+    font-family: "microsoft yahei", Tahoma, Verdana, Arial, Helvetica,"宋体", sans-serif;
+    /** 字体大小 **/
+    font-size: 12px;
+    /** 字体颜色 **/
+    color: #fff;
+
+    height: 100%;
+
+    line-height : 1.5;
+}
+
+body{
+    padding: 0;
+    margin: 0 auto;
+}
+
+ul, li, dl, dt, dd{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    /** 字体颜色 **/
+    color: #333;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * 常用工具类
+ */
+
+.text-center{
+    text-align: center;
+}
+.ib {
+    /** ie8+ **/
+    display: inline-block;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+.w1000{
+    width: 1003px;
+}
+
+.hidden-val {
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+    text-indent: -9999px;
+}
+
+
+/** 按钮大小 **/
+.btn{
+    line-height: 1.628;
+    text-align: center;
+    border-radius: 5px;
+
+    outline: none;
+    border: 0 none;
+}
+
+.btn-lg{
+    padding: 11px 0;
+    width: 462px;
+    font-size: 21px;
+
+}
+
+.btn-default{
+    background: #ffffff;
+    color: #2185f3;
+}
+
+.air-plan{
+
+}
+
+/** 文本框大小 **/
+.input{
+    line-height: 1.428;
+    text-align: left;
+
+}
+
+.input-lg{
+    padding:13px 0 ;
+    width: 430px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+
+}
+
+.input-default{
+    border: 1px solid white;
+    border-radius: 5px;
+    background: none;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.input-default::-webkit-input-placeholder {
+    color:    white;
+}
+.input-default:-moz-placeholder {
+    color:    white;
+}
+
+

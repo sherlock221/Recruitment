@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="renderer" content="webkit">
+
+    <!-- seo 优化部分 -->
+    <meta name="title" content="习悦校招答题 习悦校招答题"/>
+    <meta name="keywords" content="习悦 校招 答题"/>
+    <meta name="author" content="sherlock"/>
+    <meta name="email" content="920825209@qq.com"/>
+    <meta name="Description" content="习悦校招答题 习悦校招答题"/>
+
+    <title>西安习悦信息技术有限公司之谯美美与习悦的故事</title>
+    <link rel="stylesheet" type="text/css" href="src/css/common/normalize.css"/>
+
+
+    <link rel="stylesheet" type="text/css" href="src/css/question.css"/>
+    <script src="src/js/common/zepto_base.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="src/js/common/loader.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="src/js/common/weixin.js"></script>
+    <script type="text/javascript" src="src/js/common/template.js"></script>
+
+    <style  type="text/css">
+        .mp_loading{
+            background-color: #ea245d   !important;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<section id="main" class="hide">
+    <div class="" >
+
+        <div class="topic-list " id="topic-list">
+
+
+
+        </div>
+
+        <div class="text-center ">
+                <button type="button" class="btnBase" id="questionSubmit"><i class="all-img font-submit ib"></i></button>
+        </div>
+
+    </div>
+
+
+    <!--错误弹出-->
+    <div class="layer-message" id="layer-message">
+        <h1 class="layer-message-title"><i class="ib all-img close-red"></i>出错了！！！</h1>
+        <p>这个问题你还没有回答哦！</p>
+    </div>
+
+
+</section>
+
+
+<script type="text/html"  id="topicTp">
+    <%for (var i=0;i<list.length;i++) {  %>
+    <ul class="topic" num="<%=list[i].topicNum  %>">
+        <li class="topic-title">
+            <span class="ib topic-num"><h1><%=list[i].topicNum   %></h1></span>
+                        <span class="ib topic-text">
+                            问
+                        </span>
+        </li>
+        <li class="topic-name">
+            <p class="text-wrap">
+                <%=list[i].topicTitle  %>
+            </p>
+        </li>
+        <li class="topic-content">
+            <ul class="topic-options">
+                <%for (var j=0;j<list[i].topicOption.length;j++) {  %>
+
+                <li class="" option="<%=list[i].topicOption[j].optionName  %>">
+                    <div class=" text-wrap topic-option-name pull-left"><%=list[i].topicOption[j].optionName  %>.<%=list[i].topicOption[j].optionValue  %></div>
+
+                    <div class="switch-wrap">
+                        <div class="switch-main error" status="0">
+
+                            <div class="switch-paper"></div>
+                            <div class=" switch-left">
+                                <i class="ib all-img  icon-false"></i>
+                            </div>
+
+                            <div class=" switch-right">
+
+                                <i class="ib all-img  icon-true"></i>
+                            </div>
+                        </div>
+                     </div>
+                </li>
+                <%}  %>
+            </ul>
+        </li>
+    </ul>
+    <%}  %>
+
+</script>
+<!-- 结果层 -->
+<div class="layer-result  text-center "  style="display:  none;" id="layer-result">
+    <i class="ib all-img layer-result-img"></i>
+    <div class="layer-result-content">
+        <h1 style="font-size: 25px; margin-bottom: -8px;"></h1>
+        <p style="">
+
+        </p>
+
+        <section class="hr-email">
+            <span>HR邮箱</span><br/>
+            <span style="letter-spacing: 0.1em;">hr@thinkjoy.cn</span>
+        </section>
+    </div>
+    <div>
+
+    </div>
+</div>
+</body>
+
+
+<script src="src/js/question.js" type="text/javascript" charset="utf-8"></script>
+
+</html>

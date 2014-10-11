@@ -1,0 +1,109 @@
+.font-mm{
+    -webkit-animation: bounceInDown  1s ease 0.8s 1 both;
+    animation: bounceInDown  1s ease 0.8s 1 both;
+}
+.bg-circle-xy{
+    -webkit-animation: zoomIn  0.6s ease 0.3s 1 both;
+    animation: zoomIn  0.6s ease 0.3s 1 both;
+}
+.font-yu{
+    -webkit-animation: lightSpeedIn  0.8s ease 1.8s 1 both;
+    animation: lightSpeedIn  0.8s ease 1.8s 1 both;
+}
+.font-say-delay{
+    -webkit-animation: typeWriter  1.6s linear 2.4s 1 both;
+    animation: typeWriter  1.6s linear 2.4s 1 both;
+}
+.circle-dot{
+    -webkit-animation: fadeIn  1s ease 4.6s 1 both;
+    animation: fadeIn  1s ease 4.6s 1 both;
+}
+.heart{
+    -webkit-animation: swing  0.6s ease 4.6s 1 both;
+    animation: swing  0.6s ease 4.6s 1 both;
+}
+
+.font-say-delay{
+    position: absolute;
+    z-index: 3;
+    width: 172.5px;
+    height: 27.5px;
+    background:     #ea245d;
+    display: inline-block;
+    top: 10px;
+    left:50%;
+    margin-left: -86px;
+}
+
+
+
+/** 第二图 **/
+.circle-middle,.circle-middle-wo{
+    -webkit-animation: rollIn  0.6s ease  0.3s 1 both;
+    animation: rollIn  0.6s ease  0.3s 1 both;
+}
+
+
+
+.font-xy-who    ,   .font-why-mm{
+    -webkit-animation: fadeIn  0.6s ease  1.4s 1 both;
+    animation: fadeIn  0.6s ease  1.4s 1 both;
+}
+
+#gameStart{
+    -webkit-animation: fadeIn  1s ease  4.6s 1 both;
+    animation: fadeIn  1s ease  4.6s 1 both;
+}
+.list-info>li:nth-child(1){
+    -webkit-animation: fadeInLeft  0.5s ease   2s 1 both;
+    animation: fadeInLeft  0.5s ease   2s 1 both;
+}
+.list-info>li:nth-child(2){
+    -webkit-animation: fadeInLeft  0.6s ease   2.6s 1 both;
+    animation: fadeInLeft  0.6s ease   2.6s 1 both;
+}
+.list-info>li:nth-child(3){
+    -webkit-animation: fadeInLeft  0.6s ease   3.2s 1 both;
+}
+
+.list-info>li:nth-child(4){
+    -webkit-animation: fadeInLeft  0.6s ease   3.8s 1 both;
+    animation: fadeInLeft  0.6s ease   3.8s 1 both;
+}
+
+.list-info>li:nth-child(5){
+    -webkit-animation: fadeInLeft  0.6s ease    4.4s 1 both;
+    animation: fadeInLeft  0.6s ease    4.4s 1 both;
+}
+
+.list-info>li:nth-child(6){
+    -webkit-animation: fadeInLeft  0.6s ease   5.2s 1 both;
+    animation: fadeInLeft  0.6s ease   5.2s 1 both;
+}
+
+
+@-webkit-keyframes typeWriter{
+    0%{
+        -webkit-transform: translateX(0px);
+        transform: translateX(0);
+    }
+
+    100%{
+        -webkit-transform: translateX(173px);
+        transform: translateX(173px);
+    }
+}
+
+@keyframes typeWriter{
+    0%{
+        -webkit-transform: translateX(0px);
+        transform: translateX(0px);
+    }
+
+    100%{
+        -webkit-transform: translateX(173px);
+        transform: translateX(173px);
+    }
+}
+
+
