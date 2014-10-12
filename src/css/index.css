@@ -1,4 +1,8 @@
 /* scroll 界面基本配置 */
+
+html,body{
+    height: 100%;
+}
 .content,
 .content .wrapper {
     position: relative;
@@ -8,26 +12,28 @@
 }
 
 
-/** 竖向滚css **/
+/** 横向滚css **/
 .screen-all {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-
-    height: 100%;
+    position: relative;
     width: 100%;
+    height: 100%;
 
     -webkit-transition:  -webkit-transform 0.6s ease;
     transition: transform  0.6s ease;
+    background: #26c5d8;
+
+    white-space: nowrap;
+    font-size: 0;
 }
 
 .screen {
     position: relative;
+    display: inline-block;
+    vertical-align: top;
     width: 100%;
     height: 100%;
     color: #000000;
+    font-size: 12px;
 
 }
 
@@ -43,10 +49,47 @@
 }
 /* scroll 界面基本配置 */
 
-#screen00{
-    background: #24c3d5 url("../../imgs/bg.png");
+.bg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: transparent url("../../imgs/bg.png");
     background-size: cover;
+    z-index: 2;
 }
 
+
+/** loading 图片 **/
+.loading-img{
+    background: url("../../imgs/loading.png");
+    background-size: 100px 133px;
+}
+.loading-wrap{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -49px;
+    margin-top: -49px;
+    width:  97px;
+    height: 97px;
+    z-index: 999;
+}
+.loading{
+    background-position: 0 -35px;
+    width:  97px;
+    height: 97px;
+
+}
+.logo{
+    background-position:  0 0;
+    width: 73px;
+    height: 34px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left:  -36.5px;
+    margin-top: -17px;
+}
 
 

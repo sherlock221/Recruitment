@@ -21,6 +21,12 @@ var MobileEvent = {
 
     },
     form: function () {
+        $(".bg").tap(function(){
+            console.log("bg..");
+        });
+        MobileUI.screenAll.tap(function(){
+            console.log("tap..");
+        });
 
         //设置当前高度
         var height = document.body.offsetHeight;
@@ -29,15 +35,16 @@ var MobileEvent = {
         //滚动条
         var wrapper_scroll = new Scroller('#main', {
             Scontainer: '.screen-all',
-            hScroll : false,
-            vScroll : true,
+            hScroll : true,
+            vScroll : false,
             momentum : true,
             bounce : false,
             snap: true,
             scrollBefore: function (name, e) {
-
+                console.log("dd");
             },
             onScroll: function (name, obj) {
+                console.log("dddd");
             },
             onTouchEnd: function (name, obj) {
             },
@@ -64,3 +71,4 @@ var MobileEvent = {
 
 };
 
+MobileEvent.init();
