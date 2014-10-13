@@ -1,3 +1,220 @@
 .loading{
+
     -webkit-animation : spin  0.6s  0s linear infinite  both;
+}
+
+.companyName-in{
+
+    -webkit-animation : fadeIn  0.6s  1.2s ease 1  both;
+}
+
+.companyName-out{
+}
+
+
+
+/** 万万没想到 **/
+.font-not_think_of{
+    -webkit-animation : bounceInDown  0.6s  0.3s ease 1  both;
+}
+
+.font-xian_bige{
+    -webkit-animation : fadeInLeft  0.6s  0.3s ease 1  both;
+}
+
+.font-xiyue{
+    -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+}
+
+.font-ali_ipo{
+    -webkit-animation : fadeInLeft  0.6s   0.3s ease 1  both;
+}
+.font-you_nothp{
+    -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+}
+
+.font-come_xiyue{
+    -webkit-animation : fadeIn  0.6s   0.3s ease 1  both;
+}
+
+.font-thinkjoy{
+    -webkit-animation : fadeInLeft  0.6s   0.3s ease 1  both;
+}
+.font-zhaunzhu_o2o{
+    -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+}
+.font-user_baiwan{
+    -webkit-animation : fadeInLeft  0.6s   0.3s ease 1  both;
+}
+.font-qianwan{
+    -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+}
+.font-xian_big{
+    -webkit-animation : fadeInLeft  0.6s   0.3s ease 1  both;
+}
+.font-xian_company{
+    -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+}
+
+
+/**     青春  **/
+.font-qingchun{
+    -webkit-animation : bounceInLeft  0.6s   0.3s ease 1  both;
+}
+
+.font-big_dream{
+    -webkit-animation : bounceInRight  0.6s   1s ease 1  both;
+}
+.font-dream{
+    -webkit-animation : bounceInLeft  0.6s   2.2s ease 1  both;
+}
+.font-qingchun_all{
+    -webkit-animation : bounceInRight  0.6s   2.8s ease 1  both;
+}
+.font-weclomn_xiyue{
+    -webkit-animation : zoomIn  0.6s   4s ease 1  both;
+}
+
+.logo-rotateOut{
+    -webkit-animation : rotateOut  1s   0s ease 1  both;
+}
+
+.fadeOutBase{
+    -webkit-animation : fadeOut  0.3s   0s ease 1  both;
+}
+.fadeInBase{
+    -webkit-animation : fadeIn  0.3s   0s ease 1  both;
+}
+
+
+
+/** 4 **/
+.font-4-text-01{
+    -webkit-animation : zoomIn  0.6s   1.8s ease 1  both;
+}
+
+.font-4-text-02{
+    -webkit-animation : zoomIn  0.6s   2.4s ease 1  both;
+}
+
+.font-4-text-03{
+    -webkit-animation : zoomIn  0.6s   3s ease 1  both;
+}
+
+.font-4-text-04{
+    -webkit-animation : zoomIn  0.6s   3.6s ease 1  both;
+}
+
+.font-4-text-05{
+    -webkit-animation : zoomIn  0.6s   4.2s ease 1  both;
+}
+
+.boss{
+    -webkit-animation : zoomIn  0.6s   0.3s ease 1  both;
+
+}
+
+.cup{
+    -webkit-animation : fadeInUp  0.6s   0.9s ease 1  both;
+}
+.cup-top{
+
+}
+.mac-ce{
+    -webkit-animation : mac-open  1s   1.5s ease 1  both;
+    -webkit-transform-origin: 50% 100%;
+    -transform-origin: 50% 100%;
+}
+
+@-webkit-keyframes  mac-open{
+
+    0%{
+        -webkit-transform: perspective(400px) rotateY(60deg) rotateX(85deg);
+        transform: perspective(400px) rotateY(60deg) rotateX(85deg);
+    }
+
+    100%{
+        -webkit-transform: perspective(400px) rotateY(60deg) rotateX(-15deg);
+        transform: perspective(400px) rotateY(60deg) rotateX(-15deg);
+    }
+}
+
+@keyframes  mac-open{
+
+    0%{
+        -webkit-transform: perspective(400px) rotateY(60deg) rotateX(85deg);
+        transform: perspective(400px) rotateY(60deg) rotateX(85deg);
+    }
+
+    100%{
+        -webkit-transform: perspective(400px) rotateY(60deg) rotateX(-15deg);
+        transform: perspective(400px) rotateY(60deg) rotateX(-15deg);
+    }
+}
+.mac-bo{
+    -webkit-animation : fadeInUp  0.6s   0.9s ease 1  both;
+}
+
+.mac-apple{
+    background-position: 0 -144px;
+    width: 8px;
+    height: 9.5px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 24px;
+}
+.boss-table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 231px;
+    height: 108.5px;
+    margin-left: -115.5px;
+    margin-top: -54px;
+
+}
+
+
+/** 5 **/
+
+.sofa{
+    -webkit-animation : bounceInLeft  0.6s   0.9s ease 1  both;
+}
+.light{
+    -webkit-animation : fadeInDown  0.6s   0.3s ease 1  both;
+}
+.guang{
+    -webkit-animation : fadeInDown  0.6s   0.3s ease 1  both;
+}
+
+
+.font-5-01{
+    -webkit-animation : fadeInLeft  0.6s   2s ease 1  both;
+}
+.font-5-04{
+    -webkit-animation : fadeInRight  0.6s  2s ease 1  both;
+}
+
+.font-5-05{
+    -webkit-animation : fadeInLeft  0.6s   2s ease 1  both;
+}
+.font-5-08{
+    -webkit-animation : fadeInRight  0.6s   2s ease 1  both;
+}
+
+
+
+.font-5-02{
+    -webkit-animation : fadeInRight  0.6s   3s ease 1  both;
+}
+.font-5-03{
+    -webkit-animation : fadeInLeft  0.6s  3s ease 1  both;
+}
+
+.font-5-06{
+    -webkit-animation : fadeInRight  0.6s   3s ease 1  both;
+}
+.font-5-07{
+    -webkit-animation : fadeInLeft  0.6s   3s ease 1  both;
 }

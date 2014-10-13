@@ -27,9 +27,13 @@
     <script src="src/js/common/zepto_base.min.js" type="text/javascript" charset="utf-8"></script>
     <script src="src/js/common/scene.min.js" type="text/javascript" charset="utf-8"></script>
 
-    <style  type="text/css">
-        .mp_loading{
-            background-color: #24c3d5   !important;
+    <style type="text/css">
+        .mp_loading {
+            background-color: #24c3d5 !important;
+        }
+
+        .mp_loading_clip {
+
         }
     </style>
 </head>
@@ -37,46 +41,184 @@
 <body>
 
 
+<!-- loading -->
+<div class="loading-wrap hide" id="loadingWrap">
+    <div class="loading loading-img  "></div>
+    <i class="loading-img logo" id="logo"></i>
+</div>
 
-
+<script type="text/javascript">
+    var imgList = ["./imgs/loading.png"];
+    var imgAfter = ["./imgs/bg.png", "./imgs/rec.png","./imgs/pic.png"];
+    var ld = new loader(imgList);
+    ld.loadend(function (i) {
+    }).complete(function () {
+                //显示loading
+                $("#loadingWrap").removeClass("hide");
+                var ldOther = new loader(imgAfter).complete(function () {
+                    $(function () {
+                        MobileEvent.init();
+                    });
+                });
+            });
+</script>
 
 <section id="main" class="content">
     <div class="wrapper">
         <ul class="screen-all" id="screen-all">
             <li class="screen" id="screen00">
-               <div class="content ">
-                   <!-- 遮罩磨砂效果 -->
-                   <div class="bg"></div>
+                <div class="content hide ">
+                    <!-- 遮罩磨砂效果 -->
+                    <div class="bg"></div>
+
+                    <i class="ib companyName companyName-in font-img">
+                        <p class="hidden-val">西安习悦 信息技术有限公司</p>
+                    </i>
+                    <!-- 右侧滑动箭头 -->
+                    <i class="ib loading-img arrow"></i>
 
 
-                   <!-- loading -->
-                   <div class="loading-wrap">
-                       <div class="loading loading-img  ">   </div>
-                       <i class="loading-img logo" id="logo"></i>
-                   </div>
-
-                   <div class="" style="width: 100px; height: 100px; background: red;"></div>
-
-                   <!--<div class="arrow">-->
-                       <!--<i class="ib icon icon-arrow-inv arrowUp"></i>-->
-                   <!--</div>-->
-                 </div>
+                </div>
             </li>
 
             <li class="screen" id="screen01">
-                <div class="content ">
-                    456
-                    <!--<div class="arrow">-->
-                    <!--<i class="ib icon icon-arrow-inv arrowUp"></i>-->
-                    <!--</div>-->
+                <div class="content  hide">
+                    <!-- 遮罩磨砂效果 -->
+                    <div class="bg"></div>
+                    <div class="ani-01 hide" id="ani-01">
+                        <div>
+                            <span class="font-img font-not_think_of ib "><p class="hidden-val">万万没想到</p></span>
+                        </div>
+                        <div>
+                            <span class="font-img font-xian_bige ib"><p class="hidden-val">西安还有这样逼格的</p></span>
+                            <span class="font-img font-xiyue ib"><p class="hidden-val">习悦</p></span>
+                        </div>
+                        <div>
+                            <span class="font-img font-ali_ipo ib"><p class="hidden-val">阿里都IPO了</p></span>
+                            <span class="font-img font-you_nothp ib"><p class="hidden-val">你们没赶上</p></span>
+                        </div>
+                        <div>
+                            <span class="font-img font-come_xiyue ib"><p class="hidden-val">赶紧来习悦等下一轮吧</p></span>
+                        </div>
+
+                        <div>
+                            <span class="font-img font-thinkjoy ib"><p class="hidden-val">Thinkjoy</p></span>
+                            <span class="font-img font-zhaunzhu_o2o ib"><p class="hidden-val">专注于教育类移动互联网</p></span>
+                        </div>
+
+                        <div>
+                            <span class="font-img font-user_baiwan ib"><p class="hidden-val">产品都是年收入</p></span>
+                            <span class="font-img font-qianwan ib"><p class="hidden-val">几千万级别</p></span>
+                        </div>
+
+                        <div>
+                            <span class="font-img font-xian_big ib"><p class="hidden-val">西安最大</p></span>
+                            <span class="font-img font-xian_company ib"><p class="hidden-val">的互联网公司</p></span>
+                        </div>
+
+                    </div>
+                </div>
+            </li>
+
+            <li class="screen" id="screen02">
+                <div class="content hide ">
+                    <!-- 遮罩磨砂效果 -->
+                    <div class="bg"></div>
+                    <div class="ani-02 " id="ani-02">
+                        <div>
+                            <span class="font-img font-qingchun ib "><p class="hidden-val">想为自己的青春 </p></span>
+                        </div>
+                        <div>
+                            <span class="font-img font-big_dream ib"><p class="hidden-val">创造更大的梦想吗？</p></span>
+                        </div>
+                        <div>
+                            <span class="font-img font-dream ib"><p class="hidden-val">想为自己的梦想</p></span>
+                        </div>
+                        <div>
+                            <span class="font-img font-qingchun_all ib"><p class="hidden-val">创造更久的青春吗？</p></span>
+                        </div>
+                        <div>
+                            <span class="font-img font-weclomn_xiyue ib"><p class="hidden-val">欢迎加入习悦</p></span>
+                        </div>
+
+                    </div>
+
+                    <!-- 右侧滑动箭头 -->
+                    <i class="ib loading-img arrow"></i>
                 </div>
             </li>
 
 
+            <li class="screen" id="screen03">
+                <div class="content hide ">
+                    <!-- 遮罩磨砂效果 -->
+                    <div class="bg"></div>
+
+
+                    <div class="boss-table">
+                        <i class="ib pic-img boss"></i>
+                        <i class="ib pic-img cup">
+                            <i class="ib pic-img cup-top"></i>
+                        </i>
+                        <i class="ib pic-img mac-bo">
+                            <i class="ib pic-img mac-ce">
+                                <i class="ib pic-img mac-apple"></i>
+                            </i>
+                        </i>
+
+                        <span class="ib font-img font-4-text-01"></span>
+                        <span class="ib font-img font-4-text-02"></span>
+                        <span class="ib font-img font-4-text-03"></span>
+                        <span class="ib font-img font-4-text-04"></span>
+                        <span class="ib font-img font-4-text-05"></span>
+                    </div>
+
+                    <!-- 右侧滑动箭头 -->
+                    <i class="ib loading-img arrow"></i>
+                </div>
+            </li>
+
+            <li class="screen" id="screen04">
+                <div class="content hide ">
+                    <!-- 遮罩磨砂效果 -->
+                    <div class="bg"></div>
+
+                    <i class="pic-img ib light">
+                        <i class="pic-img ib guang">  </i>
+                    </i>
+                    <i class="pic-img ib sofa">  </i>
+
+                    <div class="ani-03" id="ani-03">
+                        <div>
+                            <span class="ib font-img font-5-01"></span>
+                            <span class="ib font-img font-5-02"></span>
+                        </div>
+                        <div>
+                            <span class="ib font-img font-5-03"></span>
+                            <span class="ib font-img font-5-04"></span>
+                        </div>
+
+                        <div>
+                            <span class="ib font-img font-5-05"></span>
+                            <span class="ib font-img font-5-06"></span>
+                        </div>
+
+                        <div>
+                            <span class="ib font-img font-5-07"></span>
+                            <span class="ib font-img font-5-08"></span>
+                        </div>
+
+                    </div>
+
+                    <!-- 右侧滑动箭头 -->
+                    <i class="ib loading-img arrow"></i>
+                </div>
+            </li>
 
         </ul>
     </div>
 </section>
+
 
 </body>
 <script src="src/js/service.js" type="text/javascript" charset="utf-8"></script>

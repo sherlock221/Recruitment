@@ -60,10 +60,12 @@ html,body{
 }
 
 
+
+
 /** loading 图片 **/
 .loading-img{
     background: url("../../imgs/loading.png");
-    background-size: 100px 133px;
+    background-size: 100px 134px;
 }
 .loading-wrap{
     position: absolute;
@@ -90,6 +92,354 @@ html,body{
     top: 50%;
     margin-left:  -36.5px;
     margin-top: -17px;
+
+    -webkit-transition : -webkit-transform   0.6s ease;
+    transition : transform 0.6s ease;
 }
 
 
+.arrow{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    background-position:  -83px 0;
+    width: 17.5px;
+    height: 16px;
+    margin-top:  -8px;
+
+}
+
+.font-img{
+    background: url("../../imgs/rec.png");
+    background-size: 500px 1000px;
+}
+
+.companyName{
+    background-position: 0 0;
+    width: 126.5px;
+    height: 56px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-top: -7px;
+    margin-left: -62px;
+}
+
+
+.ani-01{
+    width: 202px;
+    height: 203px;
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     margin-left: -101px;
+     margin-top: -101.5px;
+
+}
+/** 万万没想到 **/
+.font-not_think_of{
+    background-position:  0 -56px;
+    width: 210.5px;
+    height: 41.5px;
+}
+
+.font-xian_bige{
+    background-position:  0 -97.5px;
+    width: 152.5px;
+    height: 31px;
+}
+
+.font-xiyue{
+    background-position: -152.5px  -97.5px;
+    width: 58px;
+    height: 31px;
+}
+
+.font-ali_ipo{
+    background-position: 0 -128.5px;
+    width:  99px;
+    height: 21px;
+}
+.font-you_nothp{
+    background-position: -136.5px  -128.5px;
+    width:   74px;
+    height:  21px;
+    margin-left: 36px;
+}
+
+.font-come_xiyue{
+    background-position: 0  -149.5px;
+    width: 210.5px;
+    height: 24px;
+}
+
+.font-thinkjoy{
+    background-position: 0  -173.5px;
+    width:   94.5px;
+    height:  27.5px;
+}
+
+.font-zhaunzhu_o2o{
+    background-position: -94.5px   -173.5px;
+    width:   116px;
+    height:  27.5px;
+}
+
+.font-user_baiwan{
+    background-position: 0  -201px;
+    width:    88.5px;
+    height:  29px;
+}
+.font-qianwan{
+    background-position: -88.5px  -201px;
+    width:   122px;
+    height:  29px;
+}
+
+.font-xian_big{
+    background-position: 0  -230px;
+    width:   115.5px;
+    height:  30.5px;
+}
+
+.font-xian_company{
+    background-position: -115.5px  -230px;
+    width:  94.5px;
+    height:  30.5px;
+}
+
+
+/** 三屏幕 **/
+.ani-02{
+    width: 210px;
+    height: 174px;
+    margin-left:  -105px;
+    margin-top: -87px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.font-qingchun{
+    background-position: -210.5px  -56px ;
+    width:  210px;
+    height: 30px;
+}
+
+.font-big_dream{
+    background-position:  -210.5px -86px;
+    width:  210px;
+    height: 39px;
+}
+.font-dream{
+    background-position:  -210.5px -125px;
+    width:  210px;
+    height: 31.5px;
+}
+.font-qingchun_all{
+    background-position: -210.5px -156px;
+    width:  210px;
+    height:  39px;
+}
+.font-weclomn_xiyue{
+    background-position:  -210.5px -196px;
+    width:  210px;
+    height: 34px;
+}
+
+
+/** 4 **/
+.font-4-text-01{
+    background-position: 0px -903px;
+    width: 197px;
+    height: 60.5px;
+    position: absolute;
+    top: -109.5px;
+    left: -16px;
+}
+
+.font-4-text-02{
+    background-position: -197px -903px;
+    width: 89.5px;
+    height: 60.5px;
+    position: absolute;
+    bottom: -86px;
+    left: -16px;
+}
+
+.font-4-text-03{
+    background-position: -286px -903px;
+    width: 89.5px;
+    height: 60.5px;
+    position: absolute;
+    left: -23px;
+    top: -19px;
+}
+
+.font-4-text-04{
+    background-position: -375.5px -903px;
+    width: 90px;
+    height: 60.5px;
+    position: absolute;
+    top: -35px;
+    right: -26px;
+}
+
+.font-4-text-05{
+    background-position: -152.5px -867.5px;
+    width: 129px;
+    height: 36px;
+    position: absolute;
+    bottom: -84px;
+    right: -23px;
+}
+
+
+.pic-img{
+    background: url("../../imgs/pic.png");
+    background-size: 250px 500px;
+}
+
+.boss{
+    background-position:  0 0;
+    width: 231px;
+    height: 108.5px;
+
+}
+
+.cup{
+    background-position: 0 -119.5px;
+    width: 23.5px;
+    height: 20.5px;
+    position: absolute;
+    left: 45px;
+    bottom: 6px;
+}
+.cup-top{
+    background-position: -8px -110px;
+    width: 15.5px;
+    height: 10px;
+    position: absolute;
+    top: -11px;
+    left: 8px;
+}
+.mac-ce{
+    background-position: -24px -110px;
+    width: 51.5px;
+    height: 31.5px;
+    position: absolute;
+    top: -29px;
+    right: -30px;
+    z-index: 4;
+}
+.mac-bo{
+    background-position: 0 -142px;
+    width: 43px;
+    height: 2.5px;
+    position: absolute;
+    bottom: 5px;
+    right: 53px;
+    z-index: 3;
+}
+
+.mac-apple{
+    background-position: 0 -144px;
+    width: 8px;
+    height: 9.5px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 23px;
+}
+.boss-table{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 231px;
+    height: 108.5px;
+    margin-left: -115.5px;
+    margin-top: -54px;
+
+}
+
+/** 5屏幕 **/
+
+.sofa{
+    background-position: -139.5px -217.5px;
+    width: 67.5px;
+    height: 54.5px;
+    position: absolute;
+    top: 61px;
+    left: 50%;
+    margin-left: -34px;
+}
+.light{
+    background-position: -213px -217px;
+    width: 28px;
+    height: 46px;
+    top: -3px;
+    margin-left: -14px;
+    position: absolute;
+    left: 50%;
+}
+.guang{
+    background-position: -112.5px -110.5px;
+    width: 43.5px;
+    height: 31.5px;
+    position: absolute;
+    top: 40px;
+    left: -8px;
+}
+.font-5-01{
+    background-position:  0 -260.5px;
+    width: 140px;
+    height: 56px;
+}
+.font-5-02{
+    background-position:  -140px -260.5px;
+    width: 118.5px;
+    height: 56px;
+}
+
+.font-5-03{
+    background-position:  0px -316px;
+    width: 121px;
+    height: 59.5px;
+}
+
+.font-5-04{
+    background-position:  -121px -316px;
+    width: 137px;
+    height: 59.5px;
+}
+
+
+
+.font-5-05{
+    background-position:  0px  -375.5px;
+    width: 140px;
+    height: 63.5px;
+}
+.font-5-06{
+    background-position:  -140px  -375.5px;
+    width: 118.5px;
+    height: 63.5px;
+}
+
+.font-5-07{
+    background-position:  0px  -439px;
+    width: 121px;
+    height: 57.5px;
+}
+
+.font-5-08{
+    background-position:  -121px -439px;
+    width: 137px;
+    height: 57.5px;
+}
+.ani-03{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    margin-left: -131px;
+    bottom: 10%;
+}

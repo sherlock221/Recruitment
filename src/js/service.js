@@ -1,24 +1,19 @@
 var MobileUI = {
-
     screenAll  : $("#screen-all"),
-    screen01   : $("#screen00")
+    screen01   : $("#screen00"),
+    logo       : $("#logo"),
+    an01       : $("#ani-01")
 };
 
-//var imgList = ["./imgs/school.png","./imgs/icon.png"];
-//
-//var ld = new loadermsk(imgList, "#0e79ef", function () {
-//    MobileEvent.init();
-//});
+var isLogo = false;
 
 
 var MobileEvent = {
     init: function () {
-
         //初始化配置
         this.form();
         //保证android下流畅 启动动画
         MobileUI.screen01.find(".content").removeClass("hide");
-
     },
     form: function () {
         $(".bg").tap(function(){
@@ -27,6 +22,15 @@ var MobileEvent = {
         MobileUI.screenAll.tap(function(){
             console.log("tap..");
         });
+
+        MobileUI.logo[0].addEventListener('webkitTransitionEnd', function(d){
+
+        }, false);
+
+        setTimeout(function(){
+
+        },2000);
+
 
         //设置当前高度
         var height = document.body.offsetHeight;
@@ -41,16 +45,15 @@ var MobileEvent = {
             bounce : false,
             snap: true,
             scrollBefore: function (name, e) {
-                console.log("dd");
+
             },
             onScroll: function (name, obj) {
-                console.log("dddd");
+
             },
             onTouchEnd: function (name, obj) {
             },
             scrollEnd: function (index) {
-                    console.log(index);
-
+//                    console.log(index);
                 var $screen = MobileUI.screenAll.find(".screen");
                 var node = $screen.filter("[id='screen0" + index + "']");
                 for (var i = 0; i < $screen.length; i++) {
@@ -59,10 +62,31 @@ var MobileEvent = {
                 }
 
                 node.children(".content").removeClass("hide");
+                if(index == "1"){
+
+                    MobileUI.logo.css({
+                        "-webkit-transform" : "translate(18px,-19px) scale(0.5)",
+                        "transform" : "translate(18px,-19px) scale(0.5)",
+                        "opacity"  : "1"
+                    });
+
+                    MobileUI.logo.removeClass("fadeOutBase");
+                    MobileUI.an01.removeClass("hide");
+                }
+                else if(index == "0"){
+
+                    MobileUI.logo.css({
+                        "-webkit-transform" : "translateY(-39px)",
+                        "transform" : "translateY(-39px)"
+                    });
+
+                    $(".loading").addClass("hide");
+                }
+                else if (index == "2"){
+                    MobileUI.logo.addClass("fadeOutBase");
+                }
             }
         });
-
-
 
 
 
@@ -71,4 +95,4 @@ var MobileEvent = {
 
 };
 
-MobileEvent.init();
+
