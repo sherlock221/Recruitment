@@ -42,11 +42,7 @@ html,body{
 }
 
 /* sprite图片 */
-.all-img {
-    background: url('../../imgs/school.png');
-    background-size: 500px 455px;
-    background-repeat: no-repeat;
-}
+
 /* scroll 界面基本配置 */
 
 .bg{
@@ -78,7 +74,7 @@ html,body{
     z-index: 999;
 }
 .loading{
-    background-position: 0 -35px;
+    background-position: 0 -37px;
     width:  97px;
     height: 97px;
 
@@ -296,7 +292,7 @@ html,body{
 
 .pic-img{
     background: url("../../imgs/pic.png");
-    background-size: 250px 500px;
+    background-size: 250px 650px;
 }
 
 .boss{
@@ -443,3 +439,217 @@ html,body{
     margin-left: -131px;
     bottom: 10%;
 }
+
+
+/** 5 **/
+.font-5-bian{
+    background-position: 0 -504px;
+    width: 137px;
+    height: 55px;
+}
+
+.font-5-mac{
+        background-position: -137px -504px;
+        width: 113.5px;
+        height: 24px;
+}
+.font-05-pro{
+    background-position: 0  -559px;
+    width: 148px;
+    height: 44px;
+    position: relative;
+    top: 8px;
+}
+
+.font-05-niu{
+    background-position: 0  -603px;
+    width: 144px;
+    height: 37px;
+    position: relative;
+    top: 7px;
+}
+.font-05-xinchou{
+    background-position: -144px  -603px;
+    width: 106px;
+    height: 57px;
+}
+
+.pic-zhibiao{
+    background-position: 0px -210.5px;
+    width: 70.5px;
+    height: 61px;
+}
+.pic-yanjiangtai{
+    background-position: -73.5px -210.5px;
+    width: 65.5px;
+    height: 61px;
+}
+.pic-haidao{
+    background-position: -169px -153px;
+    width: 61.5px;
+    height: 61.5px;
+}
+.pic-rule{
+    background-position: 0 -352px;
+    width: 58.5px;
+    height: 59.5px;
+}
+.pic-mac{
+    background-position: 0 -271px;
+    width: 73.5px;
+    height: 72.5px;
+}
+
+.pic-zhao{
+    background-position: -73.5px -271.5px;
+    width: 65.5px;
+    height: 72.5px;
+}
+
+.ani-04{
+    position: absolute;
+    display: inline-block;
+    margin-top: -210px;
+    margin-left: -127px;
+    top: 50%;
+    left: 50%;
+    width: 254px;
+    height: 420px;
+
+}
+.ani-04>div{
+    margin-bottom: 25px;
+}
+
+
+/** 6 **/
+.font-6-zajianli{
+    background-position: -310px  -267px;
+    width: 146.5px;
+    height: 47px;
+}
+.font-6-renpin{
+    background-position: -310px  -363.5px;
+    width: 146.5px;
+    height: 61.5px;
+}
+.font-6-shizhan{
+    background-position: -310px  -455.5px;
+    width: 146.5px;
+    height: 59px;
+}
+.font-6-liupaizi{
+    background-position: -272px -543.5px;
+    width: 212.5px;
+    height: 60.5px;
+}
+
+
+
+.font-6-xuanjianghui{
+    background-position: -310px  -314px;
+    width: 146.5px;
+    height: 49.5px;
+}
+
+.font-6-hrhuiyan{
+    background-position: -310px -425px;
+    width: 146.5px;
+    height: 30.5px;
+}
+
+.font-6-dianxuan{
+    background-position: -310px -514.5px;
+    width: 146.5px;
+    height: 20px;
+    margin-bottom: 8px;
+
+}
+.font-6-offer{
+    background-position: -272px -603px;
+    width: 212.5px;
+    height: 19.5px;
+}
+.ani-05{
+    top: 50%;
+    position: absolute;
+    width: 100%;
+    margin-top: -156.5px;
+}
+
+.pic-glass{
+    background-position: 0 -480px;
+    width: 171px;
+    height: 94px;
+    position: absolute;
+    top: -41px;
+    left: 50%;
+    margin-left: -85.5px;
+}
+
+
+/** 7 **/
+
+/** 8 **/
+.font-8-wojiu{
+    background-position: -263.5px  -629.5px;
+    width: 180px;
+    height: 43px;
+}
+
+.font-8-benshi{
+    background-position: -263.5px -672.5px;
+    width: 237px;
+    height: 41px;
+}
+
+.sc8-top{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+
+.pic-8-hengfu-top{
+    background-position: 0 -574px;
+    width: 205px;
+    height: 14px;
+}
+.pic-8-hengfu-bottom{
+    background-position: 0 -588px;
+    width: 205px;
+    height: 22px;
+}
+.hengfu{
+    margin-top: 35px;
+    height: 278px;
+    overflow-y: hidden;
+}
+.hengfu-text-wrap{
+    background: #e6eced;
+    width: 188px;
+    height: 238px;
+    margin-left: 8px;
+    margin-top: -5px;
+
+}
+.hengfu-roll{
+    -webkit-transform: translateY(-239px);
+    transform: translateY(-239px);
+}
+.hengfu-text{
+    background-position: -144px -670px;
+    width: 154.5px;
+    height: 176px;
+    margin-top: 26px;
+}
+.qiao-meimei{
+    background-position: -145px -271.5px;
+    width: 105px;
+    height: 208.5px;
+    position: absolute;
+    right: 9px;
+    top: 208px;
+    z-index: 3;
+}
+
+

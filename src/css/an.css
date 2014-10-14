@@ -218,3 +218,131 @@
 .font-5-07{
     -webkit-animation : fadeInLeft  0.6s   3s ease 1  both;
 }
+
+
+/** 6 **/
+.pic-haidao{
+    -webkit-animation : zoomIn    0.6s   0.3s ease 1  both;
+}
+.font-5-bian{
+    -webkit-animation : fadeInLeft  0.6s   0.9s ease 1  both;
+}
+
+
+.pic-zhibiao{
+    -webkit-animation : zoomIn  0.6s   1.5s ease 1  both;
+}
+.font-05-xinchou{
+    -webkit-animation : fadeInRight  0.6s   2.1s ease 1  both;
+}
+
+.font-05-pro{
+    -webkit-animation : fadeInLeft  0.6s   2.7s ease 1  both;
+}
+
+.pic-yanjiangtai{
+    -webkit-animation : fadeInRight  0.6s   3.3s ease 1  both;
+}
+
+.font-05-niu{
+    -webkit-animation : fadeInRight  0.6s   4.5s ease 1  both;
+}
+.pic-rule{
+    -webkit-animation : zoomIn  0.6s   3.9s ease 1  both;
+}
+
+.font-5-mac{
+    -webkit-animation : fadeInLeft  0.6s   5.7s ease 1  both;
+}
+
+.pic-mac{
+    -webkit-animation : zoomIn  0.6s   5.1s ease 1  both;
+}
+
+
+
+
+/** 6 **/
+.pic-glass{
+    -webkit-animation : bounceInDown  0.6s   0.3s ease 1  both;
+}
+.font-6-zajianli{
+    -webkit-animation : bounceInLeft  0.6s   0.9s ease 1  both;
+}
+.font-6-xuanjianghui{
+    -webkit-animation : fadeIn  0.6s   1.5s ease 1  both;
+}
+.font-6-renpin{
+    -webkit-animation : bounceInRight  0.6s   2.1s ease 1  both;
+}
+.font-6-hrhuiyan{
+    -webkit-animation : fadeIn  0.6s   2.7s ease 1  both;
+}
+
+.font-6-shizhan{
+    -webkit-animation : bounceInLeft  0.6s   3.3s ease 1  both;
+}
+
+.font-6-dianxuan{
+    -webkit-animation : fadeIn  0.6s   3.9s ease 1  both;
+
+}
+
+.font-6-liupaizi{
+    -webkit-animation : bounceInRight  0.6s   4.5s ease 1  both;
+}
+
+
+.font-6-offer{
+    -webkit-animation : fadeIn  0.6s   5.1s ease 1  both;
+}
+
+
+/** 8 **/
+.font-8-wojiu{
+    -webkit-animation : zoomIn  0.6s   0.3s ease 1  both;
+}
+
+.font-8-benshi{
+    -webkit-animation : zoomIn  0.6s   0.9s ease 1  both;
+}
+
+.hengfu{
+    -webkit-animation : bounceInRight  0.6s  2s ease 1  both;
+}
+
+.hengfu-roll{
+    -webkit-animation : openPaper  1s  2.6s ease-in-out 1  both;
+}
+.qiao-meimei{
+    -webkit-animation : fadeInRight  0.6s  3.8s ease-in-out 1  both;
+}
+
+
+@-webkit-keyframes openPaper{
+
+    0% {
+        -webkit-transform: translateY(-239px);
+        transform: translateY(-239px);
+    }
+
+    60% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+
+    75% {
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0px);
+        transform: translateY(0px);
+    }
+}
+
+
+
+
+
