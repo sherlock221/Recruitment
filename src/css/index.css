@@ -24,6 +24,8 @@ html,body{
 
     white-space: nowrap;
     font-size: 0;
+
+
 }
 
 .screen {
@@ -34,6 +36,9 @@ html,body{
     height: 100%;
     color: #000000;
     font-size: 12px;
+
+    -webkit-transform : translate3d(0,0,0);
+    transform : translate3d(0,0,0);
 
 }
 
@@ -250,7 +255,7 @@ html,body{
     height: 60.5px;
     position: absolute;
     top: -109.5px;
-    left: -16px;
+    left: -23px;
 }
 
 .font-4-text-02{
@@ -315,7 +320,7 @@ html,body{
     width: 15.5px;
     height: 10px;
     position: absolute;
-    top: -11px;
+    top: -15px;
     left: 8px;
 }
 .mac-ce{
@@ -653,3 +658,180 @@ html,body{
 }
 
 
+
+
+/** 下载app 链接 **/
+.xiaoyuanyun{
+    background-position:  0 -153px;
+    width: 57px;
+    height: 57.5px;
+    position: relative;
+}
+.k12{
+    background-position:  -57px -153px;
+    width: 56px;
+    height: 57.5px;
+}
+
+.feifan{
+    background-position:  -112.5px -153px;
+    width: 56px;
+    height: 57.5px;
+}
+
+.font-gaoxiao{
+    background-position:  0 -833px;
+    width: 127px;
+    height: 23.5px;
+}
+.font-o2o{
+    background-position: 0 -856.5px;
+    width: 127px;
+    height: 21.5px;
+    margin-bottom: 10px;
+
+}
+.font-k12{
+    background-position: 0 -878px;
+    width: 127px;
+    height: 23.5px;
+    margin-bottom: 10px;
+}
+.btn-dowload{
+    width: 77px;
+    height: 22.5px;
+    padding: 0;
+    line-height: 22.5px;
+    color: #ffffff;
+    text-align: center;
+    border: 1px solid #ffffff;
+    background: transparent;
+    border-radius: 8px;
+    z-index: 10000;
+
+}
+.dowload-text{
+    color: #ffffff;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+.btn-dowload-wrap{
+    position: absolute;
+    width: 100%;
+}
+.dowload-list{
+    margin-top: 15px;
+    padding-bottom: 17px;
+}
+
+.shuzi{
+    background-position: 0 -413.5px;
+    width: 62px;
+    height: 20.5px;
+    position: absolute;
+    right: -23px;
+    top: 55px;
+
+}
+.jiezhi{
+    background-position: -182px -563.5px;
+    width: 71px;
+    height: 20px;
+    position: absolute;
+    right: -94px;
+    top: 16px;
+}
+
+.zhihui{
+    background-position: -152px -583px;
+    width: 71px;
+    height: 20px;
+    position: absolute;
+    left: -98px;
+    top: 16px;
+}
+
+
+.jiezhi:before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background: #258dab;
+    position: relative;
+    left: -38px;
+    display: inline-block;
+    top: 2px;
+}
+
+.jiezhi:after{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background: #258dab;
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    right: -12px;
+}
+
+.zhihui:before{
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background: #258dab;
+    left: -44px;
+    display: inline-block;
+    top: 2px;
+    position: relative;
+}
+
+.zhihui:after{
+    display: inline-block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    border-radius: 10px;
+    background: #258dab;
+
+    position: relative;
+    top: 2px;
+    right: -43px;
+}
+
+
+
+.bottom-zhaopin{
+    background-position:0 -670px ;
+    width: 144px;
+    height: 37px;
+
+}
+
+.bottom-ceo{
+    background-position: 0 -709.5px;
+    width: 144px;
+    height: 36.5px;
+}
+
+.bottom-pro{
+    background-position: 0 -746px;
+    width: 144px;
+    height: 36.5px;
+
+}
+
+.bottom-gangwei{
+    background-position: 0 -782.5px;
+    width: 144px;
+    height: 38.5px;
+
+}
+.cc{
+    position: absolute;
+    bottom: -7px;
+    right: -8px;
+
+}

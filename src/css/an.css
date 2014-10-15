@@ -66,13 +66,13 @@
     -webkit-animation : bounceInRight  0.6s   1s ease 1  both;
 }
 .font-dream{
-    -webkit-animation : bounceInLeft  0.6s   2.2s ease 1  both;
+    -webkit-animation : bounceInLeft  0.6s   1.6s ease 1  both;
 }
 .font-qingchun_all{
-    -webkit-animation : bounceInRight  0.6s   2.8s ease 1  both;
+    -webkit-animation : bounceInRight  0.6s   2.2s ease 1  both;
 }
 .font-weclomn_xiyue{
-    -webkit-animation : zoomIn  0.6s   4s ease 1  both;
+    -webkit-animation : zoomIn  0.6s   3s ease 1  both;
 }
 
 .logo-rotateOut{
@@ -115,10 +115,10 @@
 }
 
 .cup{
-    -webkit-animation : fadeInUp  0.6s   0.9s ease 1  both;
+    -webkit-animation : fadeInLeft  0.6s   0.9s ease 1  both;
 }
 .cup-top{
-
+    -webkit-animation: pointUp 2s 1.6s linear infinite both;
 }
 .mac-ce{
     -webkit-animation : mac-open  1s   1.5s ease 1  both;
@@ -181,11 +181,61 @@
 .sofa{
     -webkit-animation : bounceInLeft  0.6s   0.9s ease 1  both;
 }
+
+
+@-webkit-keyframes light {
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0.9
+    }
+    10% {
+        opacity: 0.1
+    }
+    15% {
+        opacity: 0.9
+    }
+    20% {
+        opacity: 0.1
+    }
+    21% {
+        opacity: 1
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+@-moz-keyframes light {
+    0% {
+        opacity: 0
+    }
+    5% {
+        opacity: 0.9
+    }
+    10% {
+        opacity: 0.1
+    }
+    15% {
+        opacity: 0.9
+    }
+    20% {
+        opacity: 0.1
+    }
+    21% {
+        opacity: 1
+    }
+    100% {
+        opacity: 1
+    }
+}
 .light{
     -webkit-animation : fadeInDown  0.6s   0.3s ease 1  both;
 }
+
 .guang{
-    -webkit-animation : fadeInDown  0.6s   0.3s ease 1  both;
+    -webkit-animation: light 2s linear 1.6s 1 both;
 }
 
 
@@ -340,6 +390,45 @@
         -webkit-transform: translateY(0px);
         transform: translateY(0px);
     }
+}
+@-webkit-keyframes arrowRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-4px);
+        transform: translateX(-4px);
+    }
+}
+
+@keyframes arrowRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+    40% {
+        opacity: 1;
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    100% {
+        opacity: 0;
+        -webkit-transform: translateX(-4px);
+        transform: translateX(-4px);
+    }
+}
+
+.arrow{
+    -webkit-animation: arrowRight 1.2s ease-in 0s infinite;
 }
 
 

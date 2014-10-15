@@ -32,6 +32,13 @@ var MobileEvent = {
         },2000);
 
 
+
+        $(".btn-dowload").tap(function(){
+            var $this = $(this);
+            var url = $this.attr("url");
+            window.location.href = url
+        });
+
         //设置当前高度
         var height = document.body.offsetHeight;
         var width = document.body.offsetWidth;
