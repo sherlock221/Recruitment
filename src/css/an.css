@@ -1,11 +1,13 @@
 .loading{
 
-    -webkit-animation : spin  0.6s  0s linear infinite  both;
+    -webkit-animation : spin  0.6s  linear 0s  infinite  both;
+    animation : spin  0.6s  linear 0s  infinite  both;
 }
 
 .companyName-in{
 
-    -webkit-animation : fadeIn  0.6s  1.2s ease 1  both;
+    -webkit-animation : fadeIn  0.6s ease 1.2s  1  both;
+    animation : fadeIn  0.6s ease 1.2s  1  both;
 }
 
 .companyName-out{
@@ -16,74 +18,94 @@
 /** 万万没想到 **/
 .font-not_think_of{
     -webkit-animation : bounceInDown  0.6s  0.3s ease 1  both;
+    animation : bounceInDown  0.6s  0.3s ease 1  both;
 }
 
 .font-xian_bige{
     -webkit-animation : fadeInLeft  0.6s  0.3s ease 1  both;
+    animation : fadeInLeft  0.6s  0.3s ease 1  both;
 }
 
 .font-xiyue{
     -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+    animation : fadeInRight  0.6s   0.3s ease 1  both;
 }
 
 .font-ali_ipo{
     -webkit-animation : fadeInLeft  0.6s   0.3s ease 1  both;
+    animation : fadeInLeft  0.6s   0.3s ease 1  both;
 }
 .font-you_nothp{
     -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+    animation : fadeInRight  0.6s   0.3s ease 1  both;
 }
 
 .font-come_xiyue{
     -webkit-animation : fadeIn  0.6s   0.3s ease 1  both;
+    animation : fadeIn  0.6s   0.3s ease 1  both;
 }
 
 .font-thinkjoy{
     -webkit-animation : fadeInLeft  0.6s   0.3s ease 1  both;
+    animation : fadeInLeft  0.6s   0.3s ease 1  both;
 }
 .font-zhaunzhu_o2o{
     -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+    animation : fadeInRight  0.6s   0.3s ease 1  both;
 }
 .font-user_baiwan{
     -webkit-animation : fadeInLeft  0.6s   0.3s ease 1  both;
+    animation : fadeInLeft  0.6s   0.3s ease 1  both;
 }
 .font-qianwan{
     -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+    animation : fadeInRight  0.6s   0.3s ease 1  both;
 }
 .font-xian_big{
     -webkit-animation : fadeInLeft  0.6s   0.3s ease 1  both;
+    animation : fadeInLeft  0.6s   0.3s ease 1  both;
 }
 .font-xian_company{
     -webkit-animation : fadeInRight  0.6s   0.3s ease 1  both;
+    animation : fadeInRight  0.6s   0.3s ease 1  both;
 }
 
 
 /**     青春  **/
 .font-qingchun{
     -webkit-animation : bounceInLeft  0.6s   0.3s ease 1  both;
+    animation : bounceInLeft  0.6s   0.3s ease 1  both;
 }
 
 .font-big_dream{
     -webkit-animation : bounceInRight  0.6s   1s ease 1  both;
+    animation : bounceInRight  0.6s   1s ease 1  both;
 }
 .font-dream{
     -webkit-animation : bounceInLeft  0.6s   1.6s ease 1  both;
+    animation : bounceInLeft  0.6s   1.6s ease 1  both;
 }
 .font-qingchun_all{
     -webkit-animation : bounceInRight  0.6s   2.2s ease 1  both;
+    animation : bounceInRight  0.6s   2.2s ease 1  both;
 }
 .font-weclomn_xiyue{
     -webkit-animation : zoomIn  0.6s   3s ease 1  both;
+    animation : zoomIn  0.6s   3s ease 1  both;
 }
 
 .logo-rotateOut{
     -webkit-animation : rotateOut  1s   0s ease 1  both;
+    animation : rotateOut  1s   0s ease 1  both;
 }
 
 .fadeOutBase{
     -webkit-animation : fadeOut  0.3s   0s ease 1  both;
+    animation : fadeOut  0.3s   0s ease 1  both;
 }
 .fadeInBase{
     -webkit-animation : fadeIn  0.3s   0s ease 1  both;
+    animation : fadeIn  0.3s   0s ease 1  both;
 }
 
 
@@ -91,39 +113,62 @@
 /** 4 **/
 .font-4-text-01{
     -webkit-animation : zoomIn  0.6s   1.8s ease 1  both;
+    animation : zoomIn  0.6s   1.8s ease 1  both;
 }
 
 .font-4-text-02{
     -webkit-animation : zoomIn  0.6s   2.4s ease 1  both;
+    animation : zoomIn  0.6s   2.4s ease 1  both;
 }
 
 .font-4-text-03{
     -webkit-animation : zoomIn  0.6s   3s ease 1  both;
+    animation : zoomIn  0.6s   3s ease 1  both;
 }
 
 .font-4-text-04{
     -webkit-animation : zoomIn  0.6s   3.6s ease 1  both;
+    animation : zoomIn  0.6s   3.6s ease 1  both;
 }
 
 .font-4-text-05{
     -webkit-animation : zoomIn  0.6s   4.2s ease 1  both;
+    animation : zoomIn  0.6s   4.2s ease 1  both;
 }
 
 .boss{
     -webkit-animation : zoomIn  0.6s   0.3s ease 1  both;
+    animation : zoomIn  0.6s   0.3s ease 1  both;
 
 }
 
 .cup{
     -webkit-animation : fadeInLeft  0.6s   0.9s ease 1  both;
+    animation : fadeInLeft  0.6s   0.9s ease 1  both;
 }
 .cup-top{
     -webkit-animation: pointUp 2s 1.6s linear infinite both;
+    animation: pointUp 2s 1.6s linear infinite both;
 }
 .mac-ce{
     -webkit-animation : mac-open  1s   1.5s ease 1  both;
+    animation : mac-open  1s   1.5s ease 1  both;
     -webkit-transform-origin: 50% 100%;
     -transform-origin: 50% 100%;
+}
+
+
+.z-01{
+    -webkit-animation : zoomIn  0.6s   0.3s ease 1  both;
+    animation : zoomIn  0.6s   0.3s ease 1  both;
+}
+.z-02{
+    -webkit-animation : zoomIn  0.6s   0.9s ease 1  both;
+    animation : zoomIn  0.6s   0.9s ease 1  both;
+}
+.z-03{
+    -webkit-animation : zoomIn  0.6s   1.5s ease 1  both;
+    animation : zoomIn  0.6s   1.5s ease 1  both;
 }
 
 @-webkit-keyframes  mac-open{
@@ -153,6 +198,7 @@
 }
 .mac-bo{
     -webkit-animation : fadeInUp  0.6s   0.9s ease 1  both;
+    animation : fadeInUp  0.6s   0.9s ease 1  both;
 }
 
 .mac-apple{
@@ -180,6 +226,7 @@
 
 .sofa{
     -webkit-animation : bounceInLeft  0.6s   0.9s ease 1  both;
+    animation : bounceInLeft  0.6s   0.9s ease 1  both;
 }
 
 
@@ -232,81 +279,113 @@
 }
 .light{
     -webkit-animation : fadeInDown  0.6s   0.3s ease 1  both;
+    animation : fadeInDown  0.6s   0.3s ease 1  both;
 }
 
 .guang{
     -webkit-animation: light 2s linear 1.6s 1 both;
+    animation: light 2s linear 1.6s 1 both;
 }
 
 
 .font-5-01{
     -webkit-animation : fadeInLeft  0.6s   2s ease 1  both;
+    animation : fadeInLeft  0.6s   2s ease 1  both;
 }
 .font-5-04{
     -webkit-animation : fadeInRight  0.6s  2s ease 1  both;
+    animation : fadeInRight  0.6s  2s ease 1  both;
 }
 
 .font-5-05{
     -webkit-animation : fadeInLeft  0.6s   2s ease 1  both;
+    animation : fadeInLeft  0.6s   2s ease 1  both;
 }
 .font-5-08{
     -webkit-animation : fadeInRight  0.6s   2s ease 1  both;
+    animation : fadeInRight  0.6s   2s ease 1  both;
 }
 
 
 
 .font-5-02{
     -webkit-animation : fadeInRight  0.6s   3s ease 1  both;
+    animation : fadeInRight  0.6s   3s ease 1  both;
 }
 .font-5-03{
     -webkit-animation : fadeInLeft  0.6s  3s ease 1  both;
+    animation : fadeInLeft  0.6s  3s ease 1  both;
 }
 
 .font-5-06{
     -webkit-animation : fadeInRight  0.6s   3s ease 1  both;
+    animation : fadeInRight  0.6s   3s ease 1  both;
 }
 .font-5-07{
     -webkit-animation : fadeInLeft  0.6s   3s ease 1  both;
+    animation : fadeInLeft  0.6s   3s ease 1  both;
+}
+
+.font-5-09{
+    -webkit-animation : fadeInLeft  0.6s   2s ease 1  both;
+    animation : fadeInLeft  0.6s   2s ease 1  both;
+}
+.font-5-10{
+    -webkit-animation : fadeInRight  0.6s   3s ease 1  both;
+    animation : fadeInRight  0.6s   3s ease 1  both;
 }
 
 
 /** 6 **/
 .pic-haidao{
     -webkit-animation : zoomIn    0.6s   0.3s ease 1  both;
+    animation : zoomIn    0.6s   0.3s ease 1  both;
 }
 .font-5-bian{
     -webkit-animation : fadeInLeft  0.6s   0.9s ease 1  both;
+    animation : fadeInLeft  0.6s   0.9s ease 1  both;
 }
 
 
 .pic-zhibiao{
     -webkit-animation : zoomIn  0.6s   1.5s ease 1  both;
+    animation : zoomIn  0.6s   1.5s ease 1  both;
 }
 .font-05-xinchou{
     -webkit-animation : fadeInRight  0.6s   2.1s ease 1  both;
+    animation : fadeInRight  0.6s   2.1s ease 1  both;
 }
 
 .font-05-pro{
     -webkit-animation : fadeInLeft  0.6s   2.7s ease 1  both;
+    animation : fadeInLeft  0.6s   2.7s ease 1  both;
 }
 
 .pic-yanjiangtai{
     -webkit-animation : fadeInRight  0.6s   3.3s ease 1  both;
+    animation : fadeInRight  0.6s   3.3s ease 1  both;
 }
 
 .font-05-niu{
     -webkit-animation : fadeInRight  0.6s   4.5s ease 1  both;
+    animation : fadeInRight  0.6s   4.5s ease 1  both;
 }
 .pic-rule{
     -webkit-animation : zoomIn  0.6s   3.9s ease 1  both;
+    animation : zoomIn  0.6s   3.9s ease 1  both;
+
+    margin-right: 14px;
+    margin-left: 26px;
 }
 
 .font-5-mac{
     -webkit-animation : fadeInLeft  0.6s   5.7s ease 1  both;
+    animation : fadeInLeft  0.6s   5.7s ease 1  both;
 }
 
 .pic-mac{
     -webkit-animation : zoomIn  0.6s   5.1s ease 1  both;
+    animation : zoomIn  0.6s   5.1s ease 1  both;
 }
 
 
@@ -315,57 +394,71 @@
 /** 6 **/
 .pic-glass{
     -webkit-animation : bounceInDown  0.6s   0.3s ease 1  both;
+    animation : bounceInDown  0.6s   0.3s ease 1  both;
 }
 .font-6-zajianli{
     -webkit-animation : bounceInLeft  0.6s   0.9s ease 1  both;
+    animation : bounceInLeft  0.6s   0.9s ease 1  both;
 }
 .font-6-xuanjianghui{
     -webkit-animation : fadeIn  0.6s   1.5s ease 1  both;
+    animation : fadeIn  0.6s   1.5s ease 1  both;
 }
 .font-6-renpin{
     -webkit-animation : bounceInRight  0.6s   2.1s ease 1  both;
+    animation : bounceInRight  0.6s   2.1s ease 1  both;
 }
 .font-6-hrhuiyan{
     -webkit-animation : fadeIn  0.6s   2.7s ease 1  both;
+    animation : fadeIn  0.6s   2.7s ease 1  both;
 }
 
 .font-6-shizhan{
     -webkit-animation : bounceInLeft  0.6s   3.3s ease 1  both;
+    animation : bounceInLeft  0.6s   3.3s ease 1  both;
 }
 
 .font-6-dianxuan{
     -webkit-animation : fadeIn  0.6s   3.9s ease 1  both;
+    animation : fadeIn  0.6s   3.9s ease 1  both;
 
 }
 
 .font-6-liupaizi{
     -webkit-animation : bounceInRight  0.6s   4.5s ease 1  both;
+    animation : bounceInRight  0.6s   4.5s ease 1  both;
 }
 
 
 .font-6-offer{
     -webkit-animation : fadeIn  0.6s   5.1s ease 1  both;
+    animation : fadeIn  0.6s   5.1s ease 1  both;
 }
 
 
 /** 8 **/
 .font-8-wojiu{
     -webkit-animation : zoomIn  0.6s   0.3s ease 1  both;
+    animation : zoomIn  0.6s   0.3s ease 1  both;
 }
 
 .font-8-benshi{
     -webkit-animation : zoomIn  0.6s   0.9s ease 1  both;
+    animation : zoomIn  0.6s   0.9s ease 1  both;
 }
 
 .hengfu{
-    -webkit-animation : bounceInRight  0.6s  2s ease 1  both;
+    -webkit-animation: bounceInLeft 0.6s 1.5s ease 1 both;
+    animation : bounceInLeft  0.6s  1.5s ease 1  both;
 }
 
 .hengfu-roll{
-    -webkit-animation : openPaper  1s  2.6s ease-in-out 1  both;
+    -webkit-animation : openPaper  1s  2.1s ease-in-out 1  both;
+    animation : openPaper  1s  2.1s ease-in-out 1  both;
 }
 .qiao-meimei{
-    -webkit-animation : fadeInRight  0.6s  3.8s ease-in-out 1  both;
+    -webkit-animation : fadeInRight  0.6s  3s ease-in-out 1  both;
+    animation : fadeInRight  0.6s  3s ease-in-out 1  both;
 }
 
 
@@ -412,25 +505,63 @@
 @keyframes arrowRight {
     0% {
         opacity: 0;
-        -webkit-transform: translateX(10px);
-        transform: translateX(10px);
+        -webkit-transform: translate3d(10px,0,0);
+        transform:  translate3d(10px,0,0);
     }
     40% {
         opacity: 1;
-        -webkit-transform: translateX(4px);
-        transform: translateX(4px);
+        -webkit-transform:  translate3d(4px,0,0);
+        transform:  translate3d(4px,0,0);
     }
     100% {
         opacity: 0;
-        -webkit-transform: translateX(-4px);
-        transform: translateX(-4px);
+        -webkit-transform:  translate3d(-4px,0,0);
+        transform:  translate3d(-4px,0,0);
     }
 }
 
 .arrow{
-    -webkit-animation: arrowRight 1.2s ease-in 0s infinite;
+    -webkit-animation: arrowRight 1.2s ease 0s infinite;
+    animation: arrowRight 1.2s ease 0s infinite;
 }
 
+
+
+
+/** 9 **/
+.panzi{
+    -webkit-animation : bounceInDown  0.6s   0.3s ease 1  both;
+    animation : bounceInDown  0.6s   0.3s ease 1  both;
+}
+
+
+.font-youdian{
+    -webkit-animation : bounceInLeft  0.6s   0.9s ease 1  both;
+    animation : bounceInLeft  0.6s   0.9s ease 1  both;
+}
+.font-youdian-text{
+    -webkit-animation : fadeIn  0.6s   1.5s ease 1  both;
+    animation : fadeIn  0.6s   1.5s ease 1  both;
+}
+.font-ligogn{
+    -webkit-animation : bounceInRight  0.6s   2.1s ease 1  both;
+    animation : bounceInRight  0.6s   2.1s ease 1  both;
+}
+.font-ligogn-text{
+    -webkit-animation : fadeIn  0.6s   2.7s ease 1  both;
+    animation : fadeIn  0.6s   2.7s ease 1  both;
+}
+
+.font-diankeda{
+    -webkit-animation : bounceInLeft  0.6s   3.3s ease 1  both;
+    animation : bounceInLeft  0.6s   3.3s ease 1  both;
+}
+
+.font-diankeda-text{
+    -webkit-animation : fadeIn  0.6s   3.9s ease 1  both;
+    animation : fadeIn  0.6s   3.9s ease 1  both;
+
+}
 
 
 

@@ -37,8 +37,7 @@ html,body{
     color: #000000;
     font-size: 12px;
 
-    -webkit-transform : translate3d(0,0,0);
-    transform : translate3d(0,0,0);
+
 
 }
 
@@ -94,8 +93,8 @@ html,body{
     margin-left:  -36.5px;
     margin-top: -17px;
 
-    -webkit-transition : -webkit-transform   0.6s ease;
-    transition : transform 0.6s ease;
+    -webkit-transition : all   0.6s ease;
+    transition : all 0.6s ease;
 }
 
 
@@ -107,12 +106,13 @@ html,body{
     width: 17.5px;
     height: 16px;
     margin-top:  -8px;
+    z-index: 10000;
 
 }
 
 .font-img{
     background: url("../../imgs/rec.png");
-    background-size: 500px 1000px;
+    background-size: 500px 1350px;
 }
 
 .companyName{
@@ -264,7 +264,7 @@ html,body{
     height: 60.5px;
     position: absolute;
     bottom: -86px;
-    left: -16px;
+    left: -19px;
 }
 
 .font-4-text-03{
@@ -297,7 +297,7 @@ html,body{
 
 .pic-img{
     background: url("../../imgs/pic.png");
-    background-size: 250px 650px;
+    background-size: 250px 800px;
 }
 
 .boss{
@@ -437,12 +437,27 @@ html,body{
     width: 137px;
     height: 57.5px;
 }
+
+.font-5-09{
+    background-position:  0px -963.5px;
+    width: 143.5px;
+    height: 65px;
+}
+
+.font-5-10{
+    background-position:  -144px -963.5px;
+    width: 118px;
+    height: 65px;
+}
+
 .ani-03{
     display: inline-block;
     position: absolute;
     left: 50%;
     margin-left: -131px;
-    bottom: 10%;
+    top: 50%;
+    margin-top: -106.5px;
+
 }
 
 
@@ -509,6 +524,10 @@ html,body{
     background-position: -73.5px -271.5px;
     width: 65.5px;
     height: 72.5px;
+    position: absolute;
+    right: -26px;
+    top: -21px;
+    z-index: 1;
 }
 
 .ani-04{
@@ -612,6 +631,7 @@ html,body{
     position: absolute;
     top: 10%;
     left: 10%;
+    z-index: 1000;
 }
 
 .pic-8-hengfu-top{
@@ -625,21 +645,23 @@ html,body{
     height: 22px;
 }
 .hengfu{
-    margin-top: 35px;
+    margin-top: 22px;
     height: 278px;
     overflow-y: hidden;
 }
 .hengfu-text-wrap{
     background: #e6eced;
     width: 188px;
-    height: 238px;
+    height: 256px;
     margin-left: 8px;
     margin-top: -5px;
+    position: relative;
+    overflow-x: hidden;
 
 }
 .hengfu-roll{
-    -webkit-transform: translateY(-239px);
-    transform: translateY(-239px);
+    -webkit-transform: translateY(-256px);
+    transform: translateY(-256px);
 }
 .hengfu-text{
     background-position: -144px -670px;
@@ -654,7 +676,7 @@ html,body{
     position: absolute;
     right: 9px;
     top: 208px;
-    z-index: 3;
+    z-index: 10002;
 }
 
 
@@ -683,6 +705,7 @@ html,body{
     background-position:  0 -833px;
     width: 127px;
     height: 23.5px;
+    margin-bottom: 10px;
 }
 .font-o2o{
     background-position: 0 -856.5px;
@@ -710,6 +733,13 @@ html,body{
     z-index: 10000;
 
 }
+.download-layer{
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    top: 50%;
+    margin-top: -255px;
+}
 .dowload-text{
     color: #ffffff;
     margin-top: 8px;
@@ -725,20 +755,20 @@ html,body{
 }
 
 .shuzi{
-    background-position: 0 -413.5px;
-    width: 62px;
+    background-position: -224px -564px;
+    width: 48px;
     height: 20.5px;
     position: absolute;
-    right: -23px;
-    top: 55px;
+    right: -19px;
+    top: 50px;
 
 }
 .jiezhi{
     background-position: -182px -563.5px;
-    width: 71px;
+    width: 45px;
     height: 20px;
     position: absolute;
-    right: -94px;
+    right: -77px;
     top: 16px;
 }
 
@@ -773,7 +803,7 @@ html,body{
     display: inline-block;
     position: relative;
     top: 2px;
-    right: -12px;
+    right: -29px;
 }
 
 .zhihui:before{
@@ -810,6 +840,14 @@ html,body{
 
 }
 
+
+.bottom-xingcheng{
+    background-position:0 -1029px ;
+    width: 144px;
+    height: 37px;
+}
+
+
 .bottom-ceo{
     background-position: 0 -709.5px;
     width: 144px;
@@ -829,9 +867,116 @@ html,body{
     height: 38.5px;
 
 }
+.bottom-fuli{
+    background-position: -356px -828px;
+    width: 144px;
+    height: 40px;
+
+}
+
 .cc{
     position: absolute;
     bottom: -7px;
     right: -8px;
 
 }
+
+/** 9 **/
+.font-youdian{
+    background-position: -263.5px -976.5px;
+    width: 228px;
+    height: 52.5px;
+}
+
+.font-youdian-text{
+    background-position: -263.5px -1029px;
+    width: 228px;
+    height: 61px;
+}
+.font-ligogn{
+    background-position: -263.5px -1090px;
+    width: 228px;
+    height: 62.5px;
+}
+.font-ligogn-text{
+    background-position: -263.5px -1152.5px;
+    width: 228px;
+    height: 60px;
+}
+
+.font-diankeda{
+    background-position: -263.5px -1212.5px;
+    width: 228px;
+    height: 60px;
+}
+.font-diankeda-text{
+    background-position: -263.5px -1272.5px;
+    width: 228px;
+    height: 53.5px;
+}
+.ani-07{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -150px;
+}
+
+.panzi{
+    background-position: 0 -423px;
+    width: 105.5px;
+    height: 49.5px;
+    position: absolute;
+    top: -2px;
+    left: 50%;
+    margin-left: -53px;
+}
+
+.shareBtn{
+    background-position: 0 -610px;
+    width: 110.5px;
+    height: 31px;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background-color: transparent;
+    position: absolute;
+    bottom: 10px;
+    left: 45px;
+}
+.sharLayer{
+    background: url("../../imgs/share.png");
+    background-size: 305px 136.5px ;
+    width: 305px;
+    height: 136.5px;
+    position: absolute;
+    top: 5px;
+    left: 50%;
+    margin-left: -152.5px;
+    z-index: 9999;
+
+}
+
+
+/** media **/
+@media screen and (max-height: 480px) {
+        .z-03{
+            float: left;
+            width: 50%;
+            margin-top: 27px;
+        }
+        .z-02{
+            float: left;
+            width: 50%;
+        }
+        .font-o2o{
+            position: relative;
+            top: -5px;
+        }
+    .download-layer{
+        margin-top: -180px;
+    }
+    .dowload-list{
+        margin-top: 25px;
+    }
+}
+
