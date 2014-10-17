@@ -13,8 +13,8 @@ var MobileEvent = {
     init: function () {
         //初始化配置
         this.form();
-        //保证android下流畅 启动动画
-        MobileUI.screen01.find(".content").removeClass("hide");
+//        //保证android下流畅 启动动画
+//        MobileUI.screen01.find(".content").removeClass("hide");
     },
     form: function () {
 
@@ -50,64 +50,7 @@ var MobileEvent = {
         var height = document.body.offsetHeight;
         var width = document.body.offsetWidth;
 
-        //滚动条
-        var wrapper_scroll = new Scroller('#main', {
-            Scontainer: '.screen-all',
-            hScroll : true,
-            vScroll : false,
-            momentum : true,
-            bounce : false,
-            snap: true,
-            scrollBefore: function (name, e) {
 
-            },
-            onScroll: function (name, obj) {
-
-            },
-            onTouchEnd: function (name, obj) {
-            },
-            scrollEnd: function (index) {
-                    console.log(index);
-                var $screen = MobileUI.screenAll.find(".screen");
-                var node = $screen.filter("[id='screen0" + index + "']");
-                for (var i = 0; i < $screen.length; i++) {
-                    var $sc = $($screen[i]);
-                    $sc.children(".content").addClass("hide");
-                }
-
-                node.children(".content").removeClass("hide");
-                if(index == "1"){
-                    MobileUI.logo.css({
-                        "opacity"  : "1",
-                        "-webkit-transform" : "translate(18px,-19px) scale(0.5)",
-                        "transform" : "translate(18px,-19px) scale(0.5)"
-
-                    });
-
-                    //MobileUI.logo.css("opacity","1");
-                    MobileUI.an01.removeClass("hide");
-                }
-                else if(index == "0"){
-
-                    MobileUI.logo.css({
-                        "opacity"  : "1",
-                        "-webkit-transform" : "scale(1) translate(0,-39px) ",
-                        "transform" : "scale(1) translate(0,-39px) "
-                    });
-
-                    $(".loading").addClass("hide");
-                }
-                else if (index == "2"){
-                    console.log(MobileUI.logo);
-//                    MobileUI.logo.addClass("hide");
-                    $("#logo").css({
-                        "opacity"  : "0",
-                        "-webkit-transform" : "translate(18px,-19px) scale(0.5)",
-                        "transform" : "translate(18px,-19px) scale(0.5)"
-                    });
-                }
-            }
-        });
 
 
 
@@ -166,6 +109,66 @@ var MobileEvent = {
 
 
         };
+
+
+        //滚动条
+        var wrapper_scroll = new Scroller('#main', {
+            Scontainer: '.screen-all',
+            hScroll : true,
+            vScroll : false,
+            momentum : true,
+            bounce : false,
+            snap: true,
+            scrollBefore: function (name, e) {
+
+            },
+            onScroll: function (name, obj) {
+
+            },
+            onTouchEnd: function (name, obj) {
+            },
+            scrollEnd: function (index) {
+                console.log(index);
+                var $screen = MobileUI.screenAll.find(".screen");
+                var node = $screen.filter("[id='screen0" + index + "']");
+                for (var i = 0; i < $screen.length; i++) {
+                    var $sc = $($screen[i]);
+                    $sc.children(".content").addClass("hide");
+                }
+
+                node.children(".content").removeClass("hide");
+                if(index == "1"){
+                    MobileUI.logo.css({
+                        "opacity"  : "1",
+                        "-webkit-transform" : "translate(18px,-19px) scale(0.5)",
+                        "transform" : "translate(18px,-19px) scale(0.5)"
+
+                    });
+
+                    //MobileUI.logo.css("opacity","1");
+                    MobileUI.an01.removeClass("hide");
+                }
+                else if(index == "0"){
+
+                    MobileUI.logo.css({
+                        "opacity"  : "1",
+                        "-webkit-transform" : "scale(1) translate(0,-39px) ",
+                        "transform" : "scale(1) translate(0,-39px) "
+                    });
+
+                    $(".loading").addClass("hide");
+                }
+                else if (index == "2"){
+                    console.log(MobileUI.logo);
+//                    MobileUI.logo.addClass("hide");
+                    $("#logo").css({
+                        "opacity"  : "0",
+                        "-webkit-transform" : "translate(18px,-19px) scale(0.5)",
+                        "transform" : "translate(18px,-19px) scale(0.5)"
+                    });
+                }
+            }
+        });
 
     }
 
