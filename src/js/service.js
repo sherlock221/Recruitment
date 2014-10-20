@@ -139,32 +139,28 @@ var MobileEvent = {
                 node.children(".content").removeClass("hide");
                 if(index == "1"){
                     MobileUI.logo.css({
+                        "visibility" : "visible",
                         "opacity"  : "1",
                         "-webkit-transform" : "translate(18px,-19px) scale(0.5)",
                         "transform" : "translate(18px,-19px) scale(0.5)"
-
                     });
 
                     //MobileUI.logo.css("opacity","1");
                     MobileUI.an01.removeClass("hide");
                 }
                 else if(index == "0"){
-
                     MobileUI.logo.css({
-                        "opacity"  : "1",
                         "-webkit-transform" : "scale(1) translate(0,-39px) ",
                         "transform" : "scale(1) translate(0,-39px) "
                     });
-
                     $(".loading").addClass("hide");
                 }
                 else if (index == "2"){
                     console.log(MobileUI.logo);
 //                    MobileUI.logo.addClass("hide");
                     $("#logo").css({
-                        "opacity"  : "0",
-                        "-webkit-transform" : "translate(18px,-19px) scale(0.5)",
-                        "transform" : "translate(18px,-19px) scale(0.5)"
+                        "visibility" : "hidden",
+                        "opacity"  : "0"
                     });
                 }
             }
