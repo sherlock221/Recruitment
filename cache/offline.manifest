@@ -1,0 +1,30 @@
+CACHE MANIFEST
+#version 1.0.24
+
+
+#需要缓存的文件
+CACHE:
+
+../imgs/bg.png
+../imgs/loading.png
+../imgs/logo-home.jpg
+../imgs/pic.png
+../imgs/rec.png
+../imgs/share.png
+
+../src/css/common/h5_light.min.css
+../src/css/common/cartoon.css
+../src/css/index.css
+../src/css/an.css
+
+../src/js/common/zepto_base.min.js
+../src/js/common/scene.min.js
+../src/js/common/appcache.1.0.0.min.js
+
+
+#不缓存的文件,每次重新拉取
+NETWORK:
+*
+
+#离线状态下,替代文件
+FALLBACK:

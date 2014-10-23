@@ -1,3 +1,19 @@
+//缓存加载
+    var cahce = new appCache();
+    cahce.auto = false;
+    cahce.end(function (e) {
+        //显示loading
+
+        $("#loadingWrap").removeClass("hide");
+        MobileEvent.init();
+
+    }).dowloadstart(function () {
+
+
+    });
+
+
+
 var MobileUI = {
     screenAll  : $("#screen-all"),
     screen01   : $("#screen00"),
@@ -13,8 +29,6 @@ var MobileEvent = {
     init: function () {
         //初始化配置
         this.form();
-//        //保证android下流畅 启动动画
-//        MobileUI.screen01.find(".content").removeClass("hide");
     },
     form: function () {
 
@@ -49,7 +63,6 @@ var MobileEvent = {
         //设置当前高度
         var height = document.body.offsetHeight;
         var width = document.body.offsetWidth;
-
 
 
 

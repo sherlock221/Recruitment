@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html manifest="cache/offline.manifest">
 
 <head>
     <meta charset="utf-8">
@@ -47,21 +47,6 @@
     <i class="loading-img logo" id="logo"></i>
 </div>
 
-<script type="text/javascript">
-    var imgList = ["./imgs/loading.png"];
-    var imgAfter = ["./imgs/bg.png", "./imgs/rec.png","./imgs/pic.png"];
-    var ld = new loader(imgList);
-    ld.loadend(function (i) {
-    }).complete(function () {
-                //显示loading
-                $("#loadingWrap").removeClass("hide");
-                var ldOther = new loader(imgAfter).complete(function () {
-                    $(function () {
-                        MobileEvent.init();
-                    });
-                });
-            });
-</script>
 
 <section id="main" class="content">
     <div class="wrapper">
@@ -469,6 +454,7 @@
 
 
 </body>
+<script type="text/javascript" src="src/js/common/appcache.1.0.0.min.js"></script>
 <script src="src/js/service.js" type="text/javascript" charset="utf-8"></script>
 
 </html>
